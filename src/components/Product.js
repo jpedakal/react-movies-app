@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
+
 const Product = ({ product }) => {
     console.log(product)
     return (
@@ -10,11 +11,12 @@ const Product = ({ product }) => {
             </a>
             <Card.Body>
                 <a href={`/products/${product._id}`}>
-                    <Card.Title as='div'>
-                        <strong>{product.name}</strong>
-                    </Card.Title>
+                    <Card.Title as='h4'>{product.name}</Card.Title>
                 </a>
-
+                <Card.Text as='div'>
+                
+                </Card.Text>
+                <Card.Text as='h5'>${product.price}</Card.Text>
             </Card.Body>
         </Card>
     )
