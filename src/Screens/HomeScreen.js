@@ -4,7 +4,7 @@ import Product from '../components/Product';
 import products from '../components/products';
 
 const HomeScreen = () => {
-    console.log(products)
+
     return (
         <>
             <h1>Latest Products</h1>
