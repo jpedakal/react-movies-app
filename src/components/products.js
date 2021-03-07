@@ -105,8 +105,8 @@ const products = [
   },
   {
     _id: '9',
-    name: 'Loose Wear',
-    image: '/images/Loose Wear.jpg',
+    name: 'Farjana',
+    image: '/images/farjana.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
     brand: 'Amazon',
@@ -118,8 +118,8 @@ const products = [
   },
   {
     _id: '10',
-    name: 'Night Wear',
-    image: '/images/Night Wear.jpeg',
+    name: 'Ragina',
+    image: '/images/ragina.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
     brand: 'Amazon',
