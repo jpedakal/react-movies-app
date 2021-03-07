@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import './header.css';
 
 const Header = () => {
     return (

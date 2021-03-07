@@ -4,7 +4,7 @@ import Rating from './Rating';
 
 
 const Product = ({ product }) => {
-    console.log(product)
+    
     return (
         <Card className='my-3 p-3 ronded'>
             <a href={`/products/${product._id}`}>
