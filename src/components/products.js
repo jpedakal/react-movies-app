@@ -156,7 +156,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '12',
+    _id: '13',
     name: 'Ragina',
     image: '/images/ragina12.jpg',
     description:
@@ -169,7 +169,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '13',
+    _id: '14',
     name: 'Ragina',
     image: '/images/ragina13.jpg',
     description:
@@ -182,7 +182,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '14',
+    _id: '15',
     name: 'Pragya',
     image: '/images/pragya.jpg',
     description:
@@ -195,7 +195,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '14',
+    _id: '16',
     name: 'Catherine',
     image: '/images/cath.jpg',
     description:
@@ -208,7 +208,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '14',
+    _id: '17',
     name: 'Catherine',
     image: '/images/cath2.jpeg',
     description:
@@ -221,7 +221,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '14',
+    _id: '18',
     name: 'Catherine',
     image: '/images/cath3.jpg',
     description:

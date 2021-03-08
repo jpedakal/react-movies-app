@@ -4,7 +4,9 @@ import { Row, Col, Card, Button, ListGroup, Image } from 'react-bootstrap';
 import Rating from '../components/Rating';
 import products from '../components/products';
 
-const ProductScreen = () => {
+const ProductScreen = ({ match }) => {
+    const product = products.find(p => p._id === match.params.id)
+    console.log(product)
     return (
         <div>
             Product
