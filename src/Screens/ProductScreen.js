@@ -8,9 +8,14 @@ const ProductScreen = ({ match }) => {
     const product = products.find(p => p._id === match.params.id)
     console.log(product)
     return (
-        <div>
-            Product
-        </div>
+        <>
+            <Link className='btn btn-danger my-3' to='/'>Go Back</Link>
+            <Row>
+                <Col md={6}>
+                    
+                </Col>
+            </Row>
+        </>
     )
 }
 
