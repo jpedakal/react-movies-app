@@ -10,7 +10,7 @@ const ProductScreen = ({ match }) => {
         <>
             <Row>
                 <Col md={4}>
-                    <Image width='360' height='470' src={product.image} alt={product.name} />
+                    <Image width='360' height='460' src={product.image} alt={product.name} />
                 </Col>
                 <Col md={4}>
                     <ListGroup variant='flush'>
