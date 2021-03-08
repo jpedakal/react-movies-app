@@ -6,14 +6,13 @@ import products from '../components/products';
 
 const ProductScreen = ({ match }) => {
     const product = products.find(p => p._id === match.params.id)
-    console.log(product)
     return (
         <>
             <Row>
                 <Col md={4}>
                     <Image width='360' height='470' src={product.image} alt={product.name} />
                 </Col>
-                <Col md={3}>
+                <Col md={4}>
                     <ListGroup variant='flush'>
                         <ListGroup.Item>
                             <h4>{product.name}</h4>
@@ -31,6 +30,14 @@ const ProductScreen = ({ match }) => {
                             Category : {product.category}
                         </ListGroup.Item>
                         <ListGroup.Item>{product.description}</ListGroup.Item>
+                        <ListGroup.Item>{product.countInStock > 0 ? 'In stock ' : 'Out Of Stock'}</ListGroup.Item>
+                    </ListGroup>
+                </Col>
+                <Col md={3}>
+                    <ListGroup>
+                        <ListGroup.Item>
+                            <Button className='btn-block' type='button' disabled={product.countInStock === 0}>Add To Cart</Button>
+                        </ListGroup.Item>
                     </ListGroup>
                 </Col>
             </Row>
