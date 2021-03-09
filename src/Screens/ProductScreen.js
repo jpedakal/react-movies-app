@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Row, Col, Card, Button, ListGroup, Image } from 'react-bootstrap';
+import { Row, Col, Button, ListGroup, Image } from 'react-bootstrap';
 import Rating from '../components/Rating';
 import products from '../components/products';
 
@@ -36,7 +36,10 @@ const ProductScreen = ({ match }) => {
                 <Col md={3}>
                     <ListGroup>
                         <ListGroup.Item>
-                            <Button className='btn-block' type='button' disabled={product.countInStock === 0}>Add To Cart</Button>
+                            <Button className='btn-block btn-info' type='button' disabled={product.countInStock === 0}>Add To Cart</Button>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Button className='btn-block btn-danger' type='button' disabled={product.countInStock === 0}>Buy Now</Button>
                         </ListGroup.Item>
                     </ListGroup>
                 </Col>
