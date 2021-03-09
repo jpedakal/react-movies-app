@@ -11,15 +11,14 @@ const ProductScreen = ({ match }) => {
 
     useEffect(() => {
         const fetchProductById = async () => {
-            const { res } = await axios.get(`http://localhost:3001/api/product/${match.params.id}`)
-            setProduct(res)
-        }
+            const { data } = await axios.get(`http://localhost:3001/api/product/${match.params.id}`)
+            setProduct(data)
+        };
 
         fetchProductById();
     }, [])
 
-    console.log(product)
-
+    
     return (
         <>
             <Row>
