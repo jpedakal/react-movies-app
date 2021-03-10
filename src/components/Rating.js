@@ -27,4 +27,4 @@ Rating.defaultProps={
     color: 'teal'
 }
 
-export default Rating
+export default Rating;
