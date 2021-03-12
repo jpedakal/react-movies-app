@@ -60,4 +60,4 @@ const ProductScreen = ({ match }) => {
     )
 }
 
-export default ProductScreen
+export default ProductScreen;
