@@ -6,7 +6,6 @@ import { Container } from 'react-bootstrap';
 import Homescreen from './Screens/HomeScreen';
 import ProductScreen from './Screens/ProductScreen';
 
-
 const App = () => {
     
     return (
