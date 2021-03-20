@@ -15,6 +15,7 @@ const ProductScreen = ({ match }) => {
         fetchProductById();
     }, [match])
 
+    
     return (
         <>
             <Row>
